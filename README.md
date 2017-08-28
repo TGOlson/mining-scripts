@@ -2,6 +2,8 @@
 
 Util scripts for setting up remote Linux crypto mining machines.
 
+TODO: make scripts more generic by paramaterizing pool location, wallet address, email, etc.
+
 #### ethereum
 
 * Mines using [etherminer](https://github.com/ethereum-mining/ethminer) GPU miner
