@@ -1,0 +1,2 @@
+-- run local hodl wallet
+./bin/hodlcoin-qt -zapwallettxes=1
