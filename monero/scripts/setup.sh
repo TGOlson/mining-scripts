@@ -15,4 +15,4 @@ sudo sysctl -w vm.nr_hugepages=128
 sudo bash -c 'echo "* soft memlock 262144" >> /etc/security/limits.conf'
 sudo bash -c 'echo "* hard memlock 262144" >> /etc/security/limits.conf'
 
-sed -i "s/xxworkerid/$(hostname)/" ~/azure_config.txt
+sed -i "s/xxworkerid/$(hostname)/" ~/miner_config.txt
